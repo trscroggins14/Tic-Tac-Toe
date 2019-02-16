@@ -24,7 +24,7 @@ public class Main {
          } else if (currentState == NOUGHT_WON) {
             System.out.println("'O' won! Bye!");
          } else if (currentState == DRAW) {
-            System.out.println("It's a Draw! Bye!");
+            System.out.println("It's a Cat! Bye!");
          }
          currentPlayer = (currentPlayer == CROSS) ? NOUGHT : CROSS;
       } while (currentState == PLAYING);
